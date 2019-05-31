@@ -1,7 +1,7 @@
-cd ..
-rm -r nccl_make
-mkdir nccl_make
-cd nccl
+cd ..;\
+rm -r nccl_make;\
+mkdir nccl_make;\
+cd nccl;\
 make -j src.build BUILDDIR=”/mount/jiawei-space/nccl_building/nccl_make/”;\
 cd ..;\
 cd nccl-tests;\
